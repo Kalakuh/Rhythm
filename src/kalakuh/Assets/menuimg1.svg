@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="150"
+   id="svg1901"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="menuimg1.svg"
+   version="1.1">
+  <defs
+     id="defs1903">
+    <filter
+       inkscape:collect="always"
+       id="filter3762"
+       x="-0.10421642"
+       width="1.2084328"
+       y="-0.14141772"
+       height="1.2828354">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.3125"
+         id="feGaussianBlur3764" />
+    </filter>
+    <filter
+       id="filter3196"
+       inkscape:label="Combined lighting"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3198"
+         stdDeviation="6"
+         in="SourceGraphic"
+         result="result0" />
+      <feDiffuseLighting
+         id="feDiffuseLighting3200"
+         lighting-color="rgb(255,255,255)"
+         diffuseConstant="1"
+         surfaceScale="4"
+         result="result5">
+        <feDistantLight
+           id="feDistantLight3202"
+           elevation="45"
+           azimuth="235" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite3204"
+         in2="SourceGraphic"
+         k1="1.4"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="arithmetic" />
+      <feGaussianBlur
+         id="feGaussianBlur3206"
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="6" />
+      <feSpecularLighting
+         id="feSpecularLighting3208"
+         specularExponent="25"
+         specularConstant="1"
+         surfaceScale="4"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="result0">
+        <feDistantLight
+           id="feDistantLight3210"
+           azimuth="235"
+           elevation="45" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite3212"
+         in2="result1"
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3214"
+         in2="SourceGraphic"
+         operator="in"
+         result="result2"
+         in="result4" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="164.08563"
+     inkscape:cy="49.656669"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1906">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-902.3622)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#00eaec;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3762)"
+       id="rect2984"
+       width="191.42857"
+       height="141.07143"
+       x="4.2857141"
+       y="4.6428571"
+       transform="matrix(0.8463145,0,0,0.80354995,15.725693,917.13103)" />
+    <g
+       style="font-size:119.63425446px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff5555;fill-opacity:1;stroke:none;filter:url(#filter3196);font-family:Racer;-inkscape-font-specification:Racer"
+       id="text2998"
+       transform="matrix(0.70751851,0,0,0.70751851,29.406448,284.97382)">
+      <path
+         d="m 96.521438,1021.6479 0,-60.77369 c -1.9e-5,-1.43597 -0.279317,-2.77222 -0.837893,-4.00874 -0.558613,-1.23639 -1.296103,-2.33289 -2.212474,-3.2895 -0.916403,-0.95648 -1.992823,-1.69397 -3.229264,-2.21248 -1.236465,-0.51836 -2.572711,-0.77758 -4.00874,-0.77765 l -8.733067,0 0,-17.46613 8.733067,0 c 3.828615,9e-5 7.437573,0.7175 10.826885,2.15223 3.389278,1.43491 6.340458,3.40885 8.853548,5.92184 2.51304,2.51315 4.48698,5.46433 5.92184,8.85355 1.43478,3.38936 2.15219,6.99832 2.15223,10.82688 l 0,60.77369 z"
+         id="path2998"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
