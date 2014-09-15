@@ -17,10 +17,10 @@ package kalakuh.rhythm
 		private var deathsong : Sound = new _dthSound();
 		private var _type : uint;
 		public var spr : Sprite = new Sprite();
-		private var _firstColor : Array = new Array(0xFF0000, 0xFF3333, 0xFF00FF, 0xFF33FF, 0xFF66FF, 0xFF0066);
-		private var _secondColor : Array = new Array(0xAAAAFF, 0xAADDFF, 0x66AAFF, 0xBBFFFF, 0xAACCFF, 0x66FFFF);
-		private var _thirdColor : Array = new Array(0xFFDBAA, 0xFFDD66, 0xFFFF33, 0xFFFF00, 0xFEDD33, 0xEEDD33);
-		private var _fourthColor : Array = new Array(0xAAFFAA, 0xAAFF66, 0x66FFAA, 0x66FFCC, 0x33DD66, 0xBBFFCC);
+		private const _firstColor : Array = new Array(0xFF0000, 0xFF3333, 0xFF00FF, 0xFF33FF, 0xFF66FF, 0xFF0066);
+		private const _secondColor : Array = new Array(0xAAAAFF, 0xAADDFF, 0x66AAFF, 0xBBFFFF, 0xAACCFF, 0x66FFFF);
+		private const _thirdColor : Array = new Array(0xFFDBAA, 0xFFDD66, 0xFFFF33, 0xFFFF00, 0xFEDD33, 0xEEDD33);
+		private const _fourthColor : Array = new Array(0xAAFFAA, 0xAAFF66, 0x66FFAA, 0x66FFCC, 0x33DD66, 0xBBFFCC);
 		private var _color : uint;
 		private var _dir : int;
 		private var _n : uint = 0;
